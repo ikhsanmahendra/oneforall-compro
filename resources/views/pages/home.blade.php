@@ -11,8 +11,7 @@
 </head>
 
 <body>
-    <img src="/assets/charizard.jpg" alt="" class="w-1/3">
-    <h1 class="text-red-600 flex justify-center">one for all chicken</h1>
+
 </body>
 
 </html>
