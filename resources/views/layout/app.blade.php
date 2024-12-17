@@ -17,17 +17,15 @@
 
 <body>
 
-    <!-- Navbar -->
+    <!-- Content Navbar -->
     @include('partials.navbar')
 
 
-    <div class=" py-4 px-6 my-20">
-        <!-- @yield('content') -->
-
-        <h1> One for All Chicken</h1>
+    <div>
+        @yield('content')
     </div>
 
-    <!-- Footer -->
+    <!-- Content Footer -->
     @include('partials.footer')
 </body>
 
