@@ -1,13 +1,14 @@
-<div class="py-6 md:py-12 px-6 bg-black max-h-screen rounded-t-3xl">
+<div class="py-6 md:py-12 -mt-5 px-6 bg-black max-h-screen rounded-t-3xl">
     <div class="md:flex md:justify-between">
         <div
             class="space-y-7 w-full md:w-1/3 flex flex-col justify-center items-center md:justify-start md:items-start mb-4 md:mb-0">
             <!-- logo & text -->
             <img src="assets/icons/logo.png" alt="OneForAllLogo" class="h-16 w-32  ">
-            <h1 class="text-wrap text-white">Jl. Talun No.13, Talun, Kec. Sumedang Utara, Kabupaten Sumedang, Jawa Barat
+            <h1 class="text-wrap font-sans  text-white">Jl. Talun No.13, Talun, Kec. Sumedang Utara, Kabupaten Sumedang,
+                Jawa Barat
                 45321</h1>
         </div>
-        <div class="md:flex md:justify-between md:items-start  gap-4 md:gap-6 px-0 md:px-4 space-y-7 ">
+        <div class="md:flex md:justify-between md:items-start space-y-4 md:space-y-0  gap-4 md:gap-6  ">
             <!-- hubungi number -->
             <div class="space-y-0 md:space-y-7 flex md:flex-col justify-between  ">
                 <h1 class="text-white font-bold text-sm md:text-lg">Hubungi Kami</h1>
