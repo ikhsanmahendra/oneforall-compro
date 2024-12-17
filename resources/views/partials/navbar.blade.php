@@ -1,4 +1,4 @@
-<nav class="navbar bg-primary-500 py-4 px-6">
+<nav class="navbar bg-primary-500 py-4 px-6 shadow-md">
     <div class="flex justify-between items-center">
         <!-- Logo -->
         <a href="{{ url('/') }}">

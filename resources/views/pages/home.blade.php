@@ -1,17 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layout.app')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>One For All Chicken</title>
-    @vite('resources/css/app.css')
+@section('title', 'Beranda')
 
+@section('content')
+<div class="bg-primary-500 min-h-screen">
+    <h1 class="text-white text-center">Hello World</h1>
+</div>
 
-</head>
-
-<body>
-
-</body>
-
-</html>
+@endsection
