@@ -2,7 +2,7 @@
     <div class="flex justify-between items-center ">
         <!-- Logo -->
         <a href="{{ url('/') }}">
-            <img src="assets/icons/logo.png" alt="oneForAll" class="h-8 md:h-full">
+            <img src="../assets/icons/logo.png" alt="oneForAll" class="h-8 md:h-full">
         </a>
 
         <!-- Hamburger Button -->
@@ -21,11 +21,11 @@
                     href="{{ url('/') }}">Beranda</a>
                 <a class="nav-link text-white text-center text-base lg:text-lg font-sans font-semibold block py-2 px-4"
                     href="{{ url('/tentang') }}">Tentang Kami</a>
-                <a class="nav-link text-white text-center text-base lg:text-lgfont-sans font-semibold block py-2 px-4"
+                <a class="nav-link text-white text-center text-base lg:text-lg font-sans font-semibold block py-2 px-4"
                     href="{{ url('/menu') }}">Menu</a>
-                <a class="nav-link text-white text-center text-base lg:text-lgfont-sans font-semibold block py-2 px-4"
+                <a class="nav-link text-white text-center text-base lg:text-lg font-sans font-semibold block py-2 px-4"
                     href="{{ url('/galeri') }}">Galeri</a>
-                <a class="nav-link text-white text-center text-base lg:text-lgfont-sans font-semibold block py-2 px-4"
+                <a class="nav-link text-white text-center text-base lg:text-lg font-sans font-semibold block py-2 px-4"
                     href="{{ url('/blog') }}">Blog</a>
             </div>
             <div class="flex justify-center">
