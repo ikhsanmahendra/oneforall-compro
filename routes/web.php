@@ -21,3 +21,15 @@ Route::get('/', function () {
 Route::get('/tentang', function () {
     return view('pages.tentang');
 });
+
+Route::get('/menu', function () {
+    return view('pages.menu');
+});
+
+Route::get('/blog', function () {
+    return view('pages.artikel');
+});
+
+Route::get('/galeri', function () {
+    return view('pages.galeri');
+});
