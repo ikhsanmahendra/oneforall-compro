@@ -29,3 +29,7 @@ Route::get('/menu', function () {
 Route::get('/blog', function () {
     return view('pages.artikel');
 });
+
+Route::get('/galeri', function () {
+    return view('pages.galeri');
+});
