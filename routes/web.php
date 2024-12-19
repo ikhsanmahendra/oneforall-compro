@@ -14,10 +14,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+use App\Http\Controllers\SliderController;
 
-Route::get('/', function () {
-    return view('pages.home');
-});
+Route::get('/', [SliderController::class, 'index'])->name('sliders.index');
+
+
+Route::get('/sliders/create', [SliderController::class, 'create'])->name('sliders.create');
+Route::post('/sliders', [SliderController::class, 'store'])->name('sliders.store');
+
+
 
 Route::get('/tentang', function () {
     return view('pages.tentang');
