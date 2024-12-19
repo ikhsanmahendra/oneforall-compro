@@ -3,7 +3,7 @@
         <div
             class="space-y-7 w-full md:w-1/3 flex flex-col justify-center items-center md:justify-start md:items-start mb-4 md:mb-0">
             <!-- logo & text -->
-            <img src="assets/icons/logo.png" alt="OneForAllLogo" class="h-16 w-32  ">
+            <img src="../assets/icons/logo.png" alt="OneForAllLogo" class="h-16 w-32">
             <h1 class="text-wrap font-sans  text-white">Jl. Talun No.13, Talun, Kec. Sumedang Utara, Kabupaten Sumedang,
                 Jawa Barat
                 45321</h1>
