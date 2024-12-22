@@ -22,7 +22,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', [HomeController::class, 'index']);
+Route::get('/', [HomeController::class, 'index'])->name('sliders.index');
 Route::get('/tentang', [TentangController::class, 'index']);
 Route::get('/menu', [MenuController::class, 'index']);
 Route::get('/galeri', [GaleriController::class, 'index']);
@@ -95,4 +95,4 @@ Route::get('/logout', [AuthController::class, 'logout']);
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('auth');
 
-Route::resource('sliders', SliderController::class)->middleware('auth');
+Route::resource('/sliders', SliderController::class)->middleware('auth');

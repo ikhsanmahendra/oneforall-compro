@@ -56,7 +56,8 @@ class SliderController extends Controller
      */
     public function show(Slider $slider)
     {
-        //
+        $slider = Slider::all();
+        return view('pages.home', compact('slider'));
     }
 
     /**
