@@ -1,5 +1,12 @@
 <?php
 
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\TentangController;
+use App\Http\Controllers\MenuController;
+use App\Http\Controllers\GaleriController;
+use App\Http\Controllers\SliderController;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Route;
 
@@ -15,17 +22,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', function () {
-    return view('pages.home');
-});
-
-Route::get('/tentang', function () {
-    return view('pages.tentang');
-});
-
-Route::get('/menu', function () {
-    return view('pages.menu');
-});
+Route::get('/', [HomeController::class, 'index']);
+Route::get('/tentang', [TentangController::class, 'index']);
+Route::get('/menu', [MenuController::class, 'index']);
+Route::get('/galeri', [GaleriController::class, 'index']);
 
 Route::get('/blog', function () {
     return view('pages.artikel', [
@@ -89,6 +89,10 @@ Route::get('/blog/{id}', function ($id) {
 
 });
 
-Route::get('/galeri', function () {
-    return view('pages.galeri');
-});
+Route::get('/login', [AuthController::class, 'login'])->name('login');
+Route::post('/login', [AuthController::class, 'authenticated']);
+Route::get('/logout', [AuthController::class, 'logout']);
+
+Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('auth');
+
+Route::resource('sliders', SliderController::class)->middleware('auth');
