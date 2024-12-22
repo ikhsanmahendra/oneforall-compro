@@ -4,7 +4,7 @@
 
 @section('content')
 
-<div class="bg-white w-[50%] min-h-screen flex justify-center mx-auto font-rubik">
+<div class="bg-white w-[90%] sm:w-[80%] md:w-[70%] lg:w-[50%] min-h-screen flex justify-center mx-auto">
   <div class="flex flex-col gap-5 py-8 my-10">
     <div class="w-full h-fit flex flex-col gap-7 text-center">
       <h1 class="font-bold text-5xl">Hubungi Tim Kami</h1>
