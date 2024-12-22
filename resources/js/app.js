@@ -2,11 +2,16 @@ import "./bootstrap";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "swiper/css/autoplay";
 
 import Swiper from "swiper";
 
 document.addEventListener("DOMContentLoaded", function () {
     new Swiper(".mySwiper", {
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+        },
         loop: true,
         spaceBetween: 1,
         slidesPerView: 2.5,
