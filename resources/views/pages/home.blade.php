@@ -20,24 +20,24 @@
         <!-- title text -->
         <div class="pt-8 md:pt-28 lg:pt-52 space-y-2 md:space-y-8 relative z-10">
             <h1
-                class="text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-white font-sans font-bold text-center  md:px-20 xl:px-52">
+                class="text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-white font-bold text-center  md:px-20 xl:px-52">
                 Nikmati
                 Ayam
                 Terlezat </h1>
             <h1
-                class="text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-white font-sans font-bold text-center   md:px-20 xl:px-52">
+                class="text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-white font-bold text-center   md:px-20 xl:px-52">
                 Hanya di
                 <span
-                    class="text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-secondary-500 font-bold font-sans text-center">One
+                    class="text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-secondary-500 font-bold text-center">One
                     For All
                     Chicken</span>
             </h1>
-            <h1 class="text-white text-center font-sans text-xs md:text-base lg:text-xl">Penuhi selera kamu dengan ayam
+            <h1 class="text-white text-center text-xs md:text-base lg:text-xl">Penuhi selera kamu dengan ayam
                 yang selalu
                 fresh dan
                 menggugah selera </h1>
             <div class="flex justify-center items-center">
-                <x-button class="font-sans text-sm md:text-base font-semibold">Lihat Menu </x-button>
+                <x-button class="text-sm md:text-base font-semibold">Lihat Menu </x-button>
             </div>
         </div>
 

@@ -5,15 +5,15 @@
 @section('content')
 <div class="bg-primary-500 min-h-screen flex flex-col justify-center items-center">
     <div class="flex flex-col space-y-4">
-        <h1 class="text-2xl md:text-4xl lg:text-5xl  text-white font-sans font-bold text-center  md:px-20 xl:px-40">
+        <h1 class="text-2xl md:text-4xl lg:text-5xl text-white font-bold text-center  md:px-20 xl:px-40">
             Satu untuk semua, semua untuk ayam!</h1>
-        <p class="text-sm md:text-base lg:text-lg  text-white font-sans  text-center  md:px-18 lg:px-12 xl:px-48">
+        <p class="text-sm md:text-base lg:text-lg  text-white  text-center  md:px-18 lg:px-12 xl:px-48">
             Bergabunglah dengan kami di perjalanan ayam lezat yang menyatukan semua selera!</p>
     </div>
 </div>
 
 <div class=" min-h-screen flex flex-col my-10 space-y-10">
-    <h1 class="font-sans font-bold text-center text-3xl md:text-4xl lg:text-5xl ">Tentang Kami</h1>
+    <h1 class="font-bold text-center text-3xl md:text-4xl lg:text-5xl ">Tentang Kami</h1>
 
     <div class="flex py-3 px-8 justify-between items-center w-full h-full gap-2">
         <img src="{{ asset('assets/ayamgoreng2.jpg') }}" alt="Ayam 1" class="rounded-3xl w-1/3 object-cover">
@@ -27,7 +27,7 @@
 
 </div>
 <div class="mb-40">
-    <p class="text-base text-black font-sans text-justify px-8 mb-20">Lorem ipsum dolor sit amet consectetur adipisicing
+    <p class="text-base text-black text-justify px-8 mb-20">Lorem ipsum dolor sit amet consectetur adipisicing
         elit.
         Mollitia autem necessitatibus amet itaque earum eveniet, assumenda, repudiandae repellendus, accusantium
         distinctio ratione commodi reiciendis qui quo! Unde, quaerat. Nihil, porro alias. Lorem ipsum dolor, sit amet
