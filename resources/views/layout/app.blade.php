@@ -17,9 +17,12 @@
     {{-- Image Gallery CDN CSS --}}
     <link href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css" rel="stylesheet">
 
+    {{-- Font Awesome CDN --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 </head>
 
-<body>
+<body class="font-rubik">
 
     <!-- Content Navbar -->
     @include('partials.navbar')
