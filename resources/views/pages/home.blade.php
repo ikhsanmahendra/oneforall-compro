@@ -44,8 +44,8 @@
         </div>
     </div>
 
-    <div class="py-4 px-8">
-        <!-- slider -->
+
+        <!-- slider swip -->
         <div class="my-20">
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
