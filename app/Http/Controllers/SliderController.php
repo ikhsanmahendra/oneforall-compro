@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\Slider;
 use Illuminate\Http\Request;
 
+// php artisan make:controller sliderCOntroller
+
 class SliderController extends Controller
 {
     /**
