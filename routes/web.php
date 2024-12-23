@@ -6,6 +6,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\TentangController;
 use App\Http\Controllers\MenuController;
 use App\Http\Controllers\GaleriController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\SliderController;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Route;
@@ -88,6 +89,8 @@ Route::get('/blog/{id}', function ($id) {
 
 
 });
+
+Route::get('/contact', [ContactController::class, 'index']);
 
 Route::get('/login', [AuthController::class, 'login'])->name('login');
 Route::post('/login', [AuthController::class, 'authenticated']);
