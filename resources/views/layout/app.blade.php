@@ -35,6 +35,8 @@
     <!-- Content Footer -->
     @include('partials.footer')
 
+    <x-buttonChatAdmin></x-buttonChatAdmin>
+
 </body>
 
 </html>
