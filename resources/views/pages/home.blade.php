@@ -42,7 +42,7 @@
         </div>
 
 
-        <!-- slider -->
+        <!-- slider swip -->
         <div class="my-20">
        <div class="swiper mySwiper">
     <div class="swiper-wrapper">
