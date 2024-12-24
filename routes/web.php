@@ -6,6 +6,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\TentangController;
 use App\Http\Controllers\MenuController;
 use App\Http\Controllers\GaleriController;
+use App\Http\Controllers\ImagesGaleriController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\SliderController;
 use Illuminate\Support\Arr;
@@ -26,7 +27,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'index'])->name('sliders.index');
 Route::get('/tentang', [TentangController::class, 'index']);
 Route::get('/menu', [MenuController::class, 'index']);
-Route::get('/galeri', [GaleriController::class, 'index']);
+Route::get('/galeri', [GaleriController::class, 'index'])->name('galeries.index');
 
 Route::get('/blog', function () {
     return view('pages.artikel', [
@@ -97,5 +98,5 @@ Route::post('/login', [AuthController::class, 'authenticated']);
 Route::get('/logout', [AuthController::class, 'logout']);
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('auth');
-
 Route::resource('/sliders', SliderController::class)->middleware('auth');
+Route::resource('/galeries', ImagesGaleriController::class)->middleware('auth');
