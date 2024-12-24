@@ -12,7 +12,8 @@ return new class extends Migration {
     {
         Schema::create('sliders', function (Blueprint $table) {
             $table->id();
-            $table->string('image_path'); // Kolom untuk menyimpan path gambar
+            $table->string('description');
+            $table->string('image'); // Kolom untuk menyimpan path gambar
             $table->timestamps();
         });
     }

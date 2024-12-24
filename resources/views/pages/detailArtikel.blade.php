@@ -9,15 +9,15 @@
     <div class="flex gap-2">
       <a href="/" class="text-sm font-semibold">Beranda / </a>
       <a href="/blog" class="text-sm font-semibold">Blog / </a>
-      <a href="{{ $artikel['id'] }}" class="text-sm text-gray-500"> {{ $artikel['judul'] }} </a>
+      <a href="{{ $blog->title }}" class="text-sm text-gray-500"> {{ $blog->title }} </a>
     </div>
     <div class="w-full h-fit grid gap-7">
-      <h1 class="font-bold text-4xl text-center">{{ $artikel['judul'] }}</h1>
-      <span class="text-xs text-[#63666A] font-medium">15 Desember 2024</span>
+      <h1 class="font-bold text-4xl text-center">{{ $blog->title }}</h1>
+      <span class="text-xs text-[#63666A] font-medium">{{ $blog->created_at->format('d F Y') }}</span>
   
-      <img src="{{ $artikel['gambar'] }}" alt="" class="w-full h-96 object-cover rounded-xl">
-      <h2 class="font-bold text-lg">{{ $artikel['subJudul'] }}</h2>
-      <p class="text-justify text-sm leading-relaxed">{{ $artikel['isiArtikel'] }}</p>
+      <img src="{{ asset('image/' . $blog->image) }}" alt="" class="w-full h-96 object-cover rounded-xl">
+      <h2 class="font-bold text-lg">{{ $blog->subtitle }}</h2>
+      <p class="text-justify text-sm leading-relaxed">{{ $blog->body }}</p>
     </div>
   </div>
 </div>

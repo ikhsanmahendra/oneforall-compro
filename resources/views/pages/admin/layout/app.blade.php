@@ -16,7 +16,7 @@
 
 </head>
 
-<body>
+<body class="font-rubik">
 
   @include('pages.admin.partials.navbar')
 

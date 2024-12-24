@@ -16,7 +16,7 @@
 
 </head>
 
-<body>
+<body class="font-rubik">
   <div>
     @yield('content')
   </div>
