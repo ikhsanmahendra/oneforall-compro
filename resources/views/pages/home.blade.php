@@ -44,16 +44,16 @@
         </div>
     </div>
 
-
-        <!-- slider swip -->
+    <div class="p-4">
+        <!-- slider -->
         <div class="my-20">
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
-                @foreach ($sliders as $slider)
-                    <div class="swiper-slide w-fit h-fit">
-                        <img src="{{ asset('image/' . $slider->image) }}" alt="" class="w-40 h-52 md:w-52 md:h-60 lg:w-72 lg:h-80 rounded-3xl object-cover">
-                    </div>
-                @endforeach
+                    @foreach ($sliders as $slider)
+                        <div class="swiper-slide w-fit h-fit">
+                            <img src="{{ asset('image/' . $slider->image) }}" alt="" class="w-40 h-52 md:w-52 md:h-60 lg:w-72 lg:h-80 rounded-3xl object-cover">
+                        </div>
+                    @endforeach
                 </div>
             </div>
         </div>
