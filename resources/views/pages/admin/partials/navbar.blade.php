@@ -3,6 +3,9 @@
     <a href="" class="text-2xl font-bold text-white">One For All Chicken</a>
   </div>
   <div class="flex items-center">
-    <a href="/logout" class="text-white text-lg w-fit h-fit px-3 py-1 bg-black rounded-full font-semibold">Logout</a>
+    <form action="/logout" method="post">
+      @csrf
+      <button type="submit" class="text-sm text-white w-fit h-fit px-4 py-1 bg-black rounded-full font-semibold">Logout</button>
+    </form>
   </div>
 </nav>

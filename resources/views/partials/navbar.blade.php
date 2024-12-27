@@ -29,6 +29,11 @@
                     href="{{ url('/blog') }}">Blog</a>
                 <a class="nav-link text-white text-center text-base lg:text-lg font-medium block py-2 px-4"
                     href="{{ url('/contact') }}">Hubungi Kami</a>
+
+                @auth
+                    <a class="nav-link text-white text-center text-base lg:text-lg font-medium block py-2 px-4 md:border-l-2 md:border-black lg:border-l-2 lg:border-black" href="{{ url('/dashboard') }}">Dashboard</a>    
+                @endauth
+
             </div>
         </div>
     </div>
