@@ -44,11 +44,6 @@
         Login
       </button>
     </form>
-
-    <div class="mt-6 text-center text-sm text-gray-600">
-      Don't have an account? 
-      <a href="#" class="text-primary-600 hover:text-primary-500 font-medium">Sign up</a>
-    </div>
   </div>
 </div>
 @endsection
