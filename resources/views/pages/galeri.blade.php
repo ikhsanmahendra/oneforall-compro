@@ -5,7 +5,7 @@
 @section('content')
 
 <div class="bg-white min-h-screen">
-  <div class="flex flex-col p-8 text-left my-10">
+  <div class="flex flex-col p-8 lg:text-left text-center my-10">
     <h1 class="font-bold text-5xl">Galeri</h1>
     <p class="text-sm mt-5 font-medium">Temukan momen dan produk unggulan ayam kami.</p>
 
