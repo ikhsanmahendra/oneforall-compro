@@ -43,5 +43,5 @@ Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('aut
 Route::resource('/sliders', SliderController::class)->middleware('auth');
 Route::resource('/galeries', ImagesGaleriController::class)->middleware('auth');
 Route::resource('/blogs', BlogsController::class)->middleware('auth');
-Route::get('/blogs/checkSlug', [BlogsController::class, 'checkSlug'])->middleware('auth');
+// Route::get('/blogs/checkSlug', [BlogsController::class, 'checkSlug'])->middleware('auth');
 Route::resource('/menus', ImagesMenuController::class)->middleware('auth');

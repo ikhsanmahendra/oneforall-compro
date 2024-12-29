@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Blog;
 use Illuminate\Http\Request;
-use \Cviebrock\EloquentSluggable\Services\SlugService;
+// use \Cviebrock\EloquentSluggable\Services\SlugService;
 
 class BlogsController extends Controller
 {
@@ -33,6 +33,7 @@ class BlogsController extends Controller
         $request->validate([
             'image' => 'required|image',
             'title' => 'required|max:255',
+            'slug' => 'required|min:3|max:255',
             'subtitle' => 'required|max:255',
             'body' => 'required',
         ]);
@@ -74,10 +75,11 @@ class BlogsController extends Controller
     public function update(Request $request, Blog $blog)
     {
         $request->validate([
-            'image' => 'required',
-            'title' => 'required',
-            'subtitle' => 'required',
-            'body' => 'required',
+            'image',
+            'title',
+            'slug',
+            'subtitle',
+            'body',
         ]);
 
         $input = $request->all();
@@ -106,11 +108,11 @@ class BlogsController extends Controller
 
     }
 
-    public function checkSlug(Request $request)
-    {
+    // public function checkSlug(Request $request)
+    // {
 
-        $slug = SlugService::createSlug(Blog::class, 'slug', $request->title);
+    //     $slug = SlugService::createSlug(Blog::class, 'slug', $request->title);
 
-        return response()->json(['slug' => $slug]);
-    }
+    //     return response()->json(['slug' => $slug]);
+    // }
 }
