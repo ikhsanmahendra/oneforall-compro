@@ -29,17 +29,15 @@
 
   </div>
   <div class="mb-5">
-    <p class="text-base text-black text-justify px-8 mb-20">Lorem ipsum dolor sit amet consectetur adipisicing
-      elit. Mollitia autem necessitatibus amet itaque earum eveniet, assumenda, repudiandae repellendus, accusantium
-      distinctio ratione commodi reiciendis qui quo! Unde, quaerat. Nihil, porro alias. Lorem ipsum dolor, sit amet
-      consectetur adipisicing elit. Amet laboriosam sed ullam fuga, itaque reprehenderit dolore, eaque hic dicta, quas
-      impedit non. Magnam, et itaque! Commodi officiis harum eveniet nam? Lorem ipsum dolor sit amet consectetur
-      adipisicing elit. Quae ratione quam saepe asperiores, libero mollitia voluptates harum beatae aliquam aliquid,
-      ea repellendus impedit nesciunt doloremque pariatur illo! Blanditiis, repellendus omnis. Lorem ipsum dolor sit
-      amet consectetur adipisicing elit. Odit sint quidem magnam, debitis cum esse corporis sequi assumenda deserunt
-      blanditiis consequatur delectus ea voluptatem corrupti sapiente. Ad eveniet ipsum fugiat! Lorem ipsum dolor sit
-      amet consectetur adipisicing elit. Blanditiis excepturi iure nobis dolorum quis repudiandae quibusdam
-      accusantium atque deserunt natus, obcaecati fugit molestiae! Libero omnis labore repellendus aut itaque vel?</p>
+    <p class="text-base text-black text-justify px-8 mb-20">
+
+Selamat datang di One For All Fried Chicken!
+
+Kami hadir untuk memberikan pengalaman makan yang lezat dan terjangkau untuk semua kalangan. Dengan menggunakan bahan-bahan segar dan rempah pilihan, setiap potongan ayam yang kami sajikan dimasak dengan cinta dan dedikasi.
+
+Di One For All, kami percaya bahwa makanan bukan hanya soal rasa, tetapi juga kebersamaan. Oleh karena itu, kami berkomitmen untuk menghadirkan hidangan berkualitas yang bisa dinikmati siapa saja, kapan saja.
+
+Terima kasih telah menjadi bagian dari keluarga One For All. Mari kita berbagi kebahagiaan dalam setiap gigitan!</p>
   </div>
 
 
