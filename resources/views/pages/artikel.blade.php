@@ -16,8 +16,8 @@
           <div class="bg-white w-full h-[21rem] grid justify-center rounded-3xl">
             <img src="{{ asset('image/' . $blog->image) }}" alt="" class="w-[30rem] h-64 rounded-3xl object-cover">
             <div class="w-full h-full grid gap-5 justify-between items-center rounded-3xl">
-              <h1 class="font-bold text-lg">{{ $blog->title  }}</h1>
-              <span class="text-xs text-[#63666A] font-medium">15 Desember 2024</span>
+              <h1 class="font-bold text-lg capitalize">{{ $blog->title  }}</h1>
+              <span class="text-xs text-[#63666A] font-medium">{{ $blog->created_at->format('d F Y') }}</span>
             </div>
           </div>
         </a>
