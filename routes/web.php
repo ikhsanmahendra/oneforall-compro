@@ -37,11 +37,12 @@ Route::get('/contact', [ContactController::class, 'index']);
 
 Route::get('/login', [AuthController::class, 'login'])->name('login')->middleware('guest');
 Route::post('/login', [AuthController::class, 'authenticated']);
+Route::get('/register-admin-oneforall', [AuthController::class, 'register'])->middleware('guest');
+Route::post('/register-admin-oneforall', [AuthController::class, 'registerStore']);
 Route::post('/logout', [AuthController::class, 'logout']);
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('auth');
 Route::resource('/sliders', SliderController::class)->middleware('auth');
 Route::resource('/galeries', ImagesGaleriController::class)->middleware('auth');
 Route::resource('/blogs', BlogsController::class)->middleware('auth');
-// Route::get('/blogs/checkSlug', [BlogsController::class, 'checkSlug'])->middleware('auth');
 Route::resource('/menus', ImagesMenuController::class)->middleware('auth');
